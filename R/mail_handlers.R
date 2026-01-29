@@ -310,7 +310,7 @@ gmailr_custom_mail_handler <- function(self, private, message) {
   
   # and send it!
   message_to_send <- tryCatch({
-    gmailr::send_message(mail)
+    gmailr::gm_send_message(mail)
     
     RegLogConnectorMessage(
       message$type,
