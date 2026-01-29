@@ -53,4 +53,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
 VignetteBuilder: knitr
 Config/testthat/edition: 3
-URL: https://statismike.github.io/shiny.reglog/
+URL: https://statismike.github.io/shiny.reglog/,
+    https://github.com/StatisMike/shiny.reglog
+BugReports: https://github.com/StatisMike/shiny.reglog/issues
